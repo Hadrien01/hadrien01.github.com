@@ -2,6 +2,7 @@
 layout: post
 title: Cohérence Visuelle
 summary: Hello World!
+category: Writings and thoughts
 ---
 Je lisais il y a quelques jours sur le site de [Dustin Curtis](http://www.dustincurtis.com/) sa [proposition](http://www.dustincurtis.com/dear_american_airlines.html) de redesign du site de [AmericanAirlines](http://www.aa.com/) (l'une des grandes compagnies de vol aérien aux États-Unis), la [réponse](http://www.dustincurtis.com/dear_dustin_curtis.html) à cet article par l'un des designers chez AA.com, et son [renvoi](http://www.dustincurtis.com/incompetence.html) une heure après pour non-respect des clauses de confidentialités. Le problème de AA.com est que tout le monde chez AmericanAirlines rajoute son petit grain de sable. Ainsi, l'équipe des promotions crée une page, modifiée ensuite par l'équipe de AmericanAirlines+OneWorld, etc. Résultat, tout devient illisible.
 
