@@ -2,7 +2,7 @@
 layout: nil
 ---
 <!-- Accédez à la version atom : /feed/atom.xml -->
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <rss version="2.0">
 	<channel>
 		<title>Hadrien01</title>
