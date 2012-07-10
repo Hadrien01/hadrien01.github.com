@@ -1,0 +1,12 @@
+# System Files
+.DS_Store
+Icon?
+.Spotlight-V100
+.Trashes
+._*
+
+# Jekyll Files and Folders
+_site/
+
+# Sass
+.sass-cache/
