@@ -1,0 +1,22 @@
+---
+layout: nil
+---
+<!-- Accédez à la version atom : /feed/atom.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Hadrien01</title>
+		<link href="http://hadrien01.github.com/"/>
+		<updated>{{ site.time | date_to_xmlschema }}</updated>
+		<author>Hadrien01</author>
+		{% for post in site.posts %}
+		<item>
+	    	<link>{{ post.url }}</link>
+	    	<title>{{ post.title }}</title>
+	    	<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+	    	<author>Hadrien01</author>
+	    	<description>{{ post.content | xml_escape }}</description>
+	  	</item>
+	  	{% endfor %}
+	  </channel>
+</rss>
