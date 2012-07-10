@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Hadrien01</title>
+	<link href="http://hadrien01.github.com/"/>
+	<link type="application/atom+xml" rel="self" href="http://hadrien01.github.com/feed/atom.xml" />
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://hadrien01.github.com/</id>
+	<author>
+		<name>Hadrien01</name>
+	</author>
+	{% for post in site.posts %}
+	<entry>
+		<id>{{ post.url }}</id>
+    	<link type="text/html" rel="alternate" href="{{ post.url }}"/>
+    	<title>{{ post.title }}</title>
+    	<updated>{{ post.date | date_to_xmlschema }}</updated>
+    	<author>
+      		<name>Hadrien01</name>
+    	</author>
+    	<content type="html">{{ post.content | xml_escape }}</content>
+  	</entry>
+  	{% endfor %}
+</feed>

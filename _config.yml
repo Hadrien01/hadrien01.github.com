@@ -1,0 +1,4 @@
+pygments: true
+markdown: redcarpet
+permalink: /blog/:title
+exclude: sass/, config.rb
